@@ -12,6 +12,7 @@ path = "src/main.rs"
 
 [dependencies]
 actix-web = "4"
+cargo-expand = "1.0.85"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 
 [dev-dependencies]
